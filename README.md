@@ -591,7 +591,7 @@ aws ec2 describe-instances --instance-ids i-0252fb4f6c4e3ba17 --query=Reservatio
 ]
 ```
 
-### Verifying the EC2 Instance 
+### Stop/Start an EC2 Instance 
 - Stop ec2 instance
 >aws ec2 stop-instances --instance-ids <InstanceId>
 ```json
